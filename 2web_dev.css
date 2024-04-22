@@ -1,0 +1,77 @@
+.header
+{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 0;
+    padding: 0px 30px;
+    backdrop-filter: blur(10px);
+}
+
+a
+{
+    text-decoration: none;
+}
+.nav
+{
+    position: absolute;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+
+}
+
+.all_elements
+{
+    font-size: 25px;
+}
+
+.nav_logo
+{
+    color: black;
+}
+
+.button
+{
+    color: black;
+    padding: 10px 30px;
+    border: solid black;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.nav_logo
+{
+    font-size: 40px;
+}
+
+.nav,
+.all_elements
+{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.list_elenents
+{
+    color: black;
+}
+
+.all_elements
+{
+    column-gap: 50px;
+}
+
+.home
+{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("travel.jpg");
+    z-index: -1;
+    background-position: center;
+    background-size: center;
+
+}
